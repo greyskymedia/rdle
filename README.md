@@ -1,4 +1,4 @@
-# Duotrigordle
+# Rdle
 
 https://rdle.io
 
