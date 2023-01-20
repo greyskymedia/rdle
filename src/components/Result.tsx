@@ -88,7 +88,7 @@ function getShareableText(
   if (practice) {
     text.push(`Practice Duotrigordle\n`);
   } else {
-    text.push(`Daily Duotrigordle #${id}\n`);
+    text.push(`Daily rdle #${id}\n`);
   }
   text.push(`Guesses: ${guessCount ?? "X"}/${NUM_GUESSES}\n`);
   if (timeElapsed !== null) {
@@ -115,6 +115,6 @@ function getShareableText(
 
     text.push(row.join(" ") + "\n");
   }
-  text.push("https://duotrigordle.com/");
+  text.push("https://rdle.io");
   return text.join("");
 }
