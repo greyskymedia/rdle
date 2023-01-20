@@ -119,23 +119,6 @@ export function Settings() {
           />
           <label htmlFor="hide-empty-rows">Hide empty rows</label>
         </div>
-        <hr className="separator" />
-        <KofiEmailInput />
-        <div className={cn("group", "hide-ads", !kofiEmail && "disabled")}>
-          <input
-            type="checkbox"
-            id="hide-ads"
-            disabled={!kofiEmail}
-            checked={hideAds}
-            onChange={(e) =>
-              dispatch(updateSettings({ hideAds: e.target.checked }))
-            }
-          />
-          <label htmlFor="hide-ads">Hide ads</label>
-        </div>
-        <button className="close" onClick={() => dispatch(showPopup(null))}>
-          close
-        </button>
       </div>
     </div>
   );
