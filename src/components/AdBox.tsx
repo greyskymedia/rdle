@@ -18,20 +18,6 @@ export function AdBox() {
     }
   }, [dispatch, hideAds, sideEffect]);
 
-  return (
-    <div className={cn("ad-box-wrapper", hideAds && "hidden")}>
-      <div className="ad-box">
-        <ins
-          className="adsbygoogle"
-          style={{
-            display: "inline-block",
-            width: "min(100vw, 600px)",
-            height: "60px",
-          }}
-          data-ad-client="ca-pub-4459769759726497"
-          data-ad-slot="5019524864"
-        />
-      </div>
-    </div>
+  return ( 
   );
 }
