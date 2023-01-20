@@ -82,10 +82,7 @@ button {
 }
 
 .ad-box-wrapper {
-  overflow: hidden;
-  height: 60px;
-  display: flex;
-  justify-content: center;
+  display: none;
 }
 .ad-box-wrapper.hidden {
   display: none;
