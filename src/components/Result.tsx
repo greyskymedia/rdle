@@ -86,7 +86,7 @@ function getShareableText(
 ) {
   const text = [];
   if (practice) {
-    text.push(`Practice Duotrigordle\n`);
+    text.push(`Practice Rdle\n`);
   } else {
     text.push(`Daily rdle #${id}\n`);
   }
