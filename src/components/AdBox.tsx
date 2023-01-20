@@ -18,6 +18,7 @@ export function AdBox() {
     }
   }, [dispatch, hideAds, sideEffect]);
 
-  return ( 
+  return (
+    <!-- no ads -->
   );
 }
