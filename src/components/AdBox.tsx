@@ -26,10 +26,10 @@ export function AdBox() {
            style={{
              display: "inline-block",
              width: "min(100vw, 600px)",
-             height: "60px",
+             height: "0",
            }}
-           data-ad-client="ca-pub-4459769759726497"
-           data-ad-slot="5019524864"
+           data-ad-client=""
+           data-ad-slot=""
          />
        </div>
      </div>
