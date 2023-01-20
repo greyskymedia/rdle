@@ -15,8 +15,6 @@ export function Settings() {
     hideKeyboard,
     useFloatingInput,
     hideEmptyRows,
-    hideAds,
-    kofiEmail,
   } = useSelector((s) => s.settings);
 
   return (
@@ -119,6 +117,9 @@ export function Settings() {
           />
           <label htmlFor="hide-empty-rows">Hide empty rows</label>
         </div>
+        <button className="close" onClick={() => dispatch(showPopup(null))}>
+           close
+         </button>
       </div>
     </div>
   );
