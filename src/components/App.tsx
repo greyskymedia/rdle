@@ -5,7 +5,7 @@ import { NUM_GUESSES } from "../consts";
 import { getAllWordsGuessed } from "../funcs";
 import { addDebugHooks, createSideEffect, useSelector } from "../store";
 import About from "./About";
-import { AdBox } from "./AdBox";
+//import { AdBox } from "./AdBox";
 import Boards from "./Boards";
 import Header from "./Header";
 import Keyboard from "./Keyboard";
