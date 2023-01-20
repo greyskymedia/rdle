@@ -1,6 +1,6 @@
-export const NUM_BOARDS = 32;
+export const NUM_BOARDS = 64;
 
-export const NUM_GUESSES = 37;
+export const NUM_GUESSES = 70;
 
 export const PRACTICE_MODE_MIN_ID = 100000;
 
