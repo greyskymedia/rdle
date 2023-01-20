@@ -29,16 +29,17 @@ export default function About() {
   return (
     <div className={cn("popup-wrapper", !shown && "hidden")}>
       <div className="popup">
-        <p>Guess all 32 Duotrigordle words in 37 tries!</p>
+        <p>Guess all 64 Rdle words in 70 tries!</p>
         <p>
-          A new Daily Duotrigordle will be available in {hoursRemaining} hour
+          A new Daily Rdle will be available in {hoursRemaining} hour
           {hoursRemaining === "1" ? "" : "s"}.
         </p>
         <hr className="separator" />
-        <p>Duotrigordle by Bryan Chen</p>
+        <p>Rdle by JM</p>
+        <p>Based on Duotrigordle by Bryan Chen</p>
         <p>Board highlight idea by Dr. Om Patel</p>
         <p>
-          Source code on{" "}
+          Duotrigordle source code on{" "}
           <a
             rel="noreferrer"
             target="_blank"
@@ -47,19 +48,7 @@ export default function About() {
             GitHub
           </a>
         </p>
-        <div className="kofi">
-          <span dangerouslySetInnerHTML={{ __html: twemoji.parse("💛") }} />{" "}
-          Duotrigordle?{" "}
-          <a
-            target="_blank"
-            href="https://ko-fi.com/thesilican"
-            rel="noreferrer"
-          >
-            Buy me a{" "}
-            <span dangerouslySetInnerHTML={{ __html: twemoji.parse("☕️") }} />{" "}
-            !
-          </a>
-        </div>
+        
         <hr className="separator" />
         <p>Based on</p>
         <ul>
@@ -72,6 +61,16 @@ export default function About() {
               Hexadecordle
             </a>{" "}
             by Alfie Rayner
+          </li>
+          <li>
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://duotrigordle.com/"
+            >
+              Hexadecordle
+            </a>{" "}
+            by Bryan Chen
           </li>
           <li>
             <a rel="noreferrer" target="_blank" href="https://octordle.com/">
@@ -110,7 +109,7 @@ export default function About() {
         <div className="legal">
           <a
             target="_blank"
-            href="https://duotrigordle.com/privacy.html"
+            href="https://rdle.io/privacy.html"
             rel="noreferrer"
           >
             Privacy Policy
